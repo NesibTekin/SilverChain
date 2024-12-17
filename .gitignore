@@ -1,0 +1,53 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Build and Production files
+build/
+coverage/
+*.lock
+*.cache
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Miscellaneous
+.env
+.env.local
+.env.production
+.env.test
+*.bak
+*.tmp
+
+# Line endings and encoding
+* text=auto
+*.json text eol=lf
+*.html text eol=lf
+*.ts text eol=lf
+*.js text eol=lf
+*.config.js text eol=lf
+*.bat text eol=crlf
